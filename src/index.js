@@ -13,10 +13,7 @@ import  db from './firebase/firebase'
 
 const store = configureStore();
 
-store.dispatch(addExpense({ description: 'Water bill', amount : 4500 }));
-store.dispatch(addExpense({ description: 'Gas bill', amount : 3900, createdAt : 300 }));
-store.dispatch(addExpense({ description: 'Gas bill', amount : 3500 }));
-store.dispatch(addExpense({ description: 'Rent bill', createdAt : 1000 }));
+
 
 
 const state = store.getState();
